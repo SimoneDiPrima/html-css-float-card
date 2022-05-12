@@ -16,7 +16,6 @@ h1{
 .card{
     float:left;
     width:300px;
-    height:100px;
     margin:10px;
     background-color: black;
 }

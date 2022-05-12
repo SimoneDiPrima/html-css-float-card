@@ -2,12 +2,13 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    text-align: center;
 }
 .container{
     max-width:1200px;
     font-family: "Fredoka";sans-serif;
     margin:0 auto;
-    text-align:center;
+  
 }
 h1{
     color:rgb(206, 48, 206);
@@ -16,8 +17,8 @@ h1{
     float:left;
     width:300px;
     height:100px;
+    margin:10px;
     background-color: black;
-    margin:5px;
 }
 img{float:left;
     height:100px;
@@ -33,11 +34,12 @@ h3,h5{
 .white{
     color:white;
 }
-a{
+a , ul{
     text-decoration: none;
     color:lightblue;
 }
-.all-cards{
-    float:left;
-    width:calc(100%/3);
+.column{
+    width:calc(100% / 3- 150px);
+    margin:0 75px;
+    padding-top:30px;
 }
